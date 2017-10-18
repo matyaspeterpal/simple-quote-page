@@ -23,15 +23,29 @@ body{
 
 .quote{
   font-family: 'Crimson Text', serif;
-  font-size: 2.125rem;
+  font-size: .925rem;
   line-height: 1.5;
   text-transform: uppercase;
-  padding-top: 14rem;
+  padding-top: 8rem;
 
 }
 
 .author{
   font-family: 'Julius Sans One', serif;
-  font-size: 1.525rem;
-  padding: 4rem;
+  font-size: .525rem;
+  padding: 2rem;
 }
+
+/********  FULL SCREEN HEADER ***************/
+
+
+@media (min-width: 768px) {
+  .quote{
+      font-size: 2.125rem;
+      padding-top: 14rem;
+  }
+
+  .author{
+    font-size: 1.525rem;
+    padding: 4rem;
+  }
