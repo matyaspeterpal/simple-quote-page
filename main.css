@@ -36,6 +36,47 @@ body{
   padding: 2rem;
 }
 
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Crimson Text', Arial;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.42857143;
+  padding: .325rem .3rem;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  white-space: nowrap;
+  vertical-align: middle;
+  color: #fff;
+}
+  
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
 /********  FULL SCREEN HEADER ***************/
 
 
@@ -49,3 +90,4 @@ body{
     font-size: 1.525rem;
     padding: 4rem;
   }
+
